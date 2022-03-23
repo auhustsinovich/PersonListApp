@@ -25,10 +25,9 @@ class PersonInformationViewController: UITableViewController {
         persons[section].fullName
     }
 
-
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Person", for: indexPath)
         
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Person", for: indexPath)
         let person = persons[indexPath.section]
         
         switch indexPath.row {
@@ -38,8 +37,7 @@ class PersonInformationViewController: UITableViewController {
         default:
             cell.textLabel?.text = person.email
             cell.imageView?.image = UIImage(systemName: "tray")
-        }
-        
+        }        
         return cell
     }
 }

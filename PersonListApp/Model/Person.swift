@@ -34,7 +34,6 @@ extension Person {
                 firstName: firstNames[index], secondName: secondNames[index], number: numbers[index], email: emails[index]
             )
             persons.append(person)
-            
         }
         return persons
     }

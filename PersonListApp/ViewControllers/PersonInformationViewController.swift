@@ -30,14 +30,14 @@ class PersonInformationViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Person", for: indexPath)
         let person = persons[indexPath.section]
         
-        switch indexPath.row {
-        case 0:
+        if indexPath.row == 0 {
             cell.textLabel?.text = person.number
             cell.imageView?.image = UIImage(systemName: "phone")
-        default:
+        } else {
             cell.textLabel?.text = person.email
             cell.imageView?.image = UIImage(systemName: "tray")
-        }        
+        }
+        
         return cell
     }
 }

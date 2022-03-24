@@ -69,9 +69,9 @@
 				A53C1E8527EA569100751AE1 /* Storyboards */,
 				A53C1E8627EA569B00751AE1 /* ViewControllers */,
 				A53C1E8F27EA583200751AE1 /* Models */,
+				A5FF92A627ECDD58008F1A66 /* Services */,
 				A53C1E8727EA56A700751AE1 /* Resources */,
 				A53C1E8827EA56B100751AE1 /* App */,
-				A51B1DA127EB662200D955EA /* DataManager.swift */,
 			);
 			path = PersonListApp;
 			sourceTree = "<group>";
@@ -120,6 +120,14 @@
 				A53C1E8D27EA582E00751AE1 /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A5FF92A627ECDD58008F1A66 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A51B1DA127EB662200D955EA /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,22 +11,22 @@ class DataManager {
     
     static let data = DataManager()
     
-    let firstNames: [String] = [
+    let firstNames = [
         "John", "Sharon", "Aaron",
         "Steven", "Nicola", "Ted",
         "Bruce", "Carl", "Allan"
     ]
-    let secondNames: [String] = [
+    let secondNames = [
         "Murphy", "Jankin", "Williams",
         "Black", "Robertson", "Butler",
         "Isaacson", "Smith", "PennyWorth"
     ]
-    let numbers: [String] = [
+    let numbers = [
         "9375968820", "9938750281", "3957285028",
         "1145682048", "7464388023", "8120486023",
         "9474382383", "3333344411", "7777777777"
     ]
-    let emails: [String] = [
+    let emails = [
         "aaaa@gmail.com", "bbbb@gmail.com", "cccc@@gmail.com",
         "dddd@gmail.com", "eeee@gmail.com", "gggg@gmail.com",
         "nnnn@@gmail.com", "llll@gmail.com", "wwww@gmail.com"

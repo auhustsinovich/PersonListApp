@@ -31,7 +31,10 @@ extension Person {
         
         for index in 0..<firstNames.count {
             let person = Person(
-                firstName: firstNames[index], secondName: secondNames[index], number: numbers[index], email: emails[index]
+                firstName: firstNames[index],
+                secondName: secondNames[index],
+                number: numbers[index],
+                email: emails[index]
             )
             persons.append(person)
         }
